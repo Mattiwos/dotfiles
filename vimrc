@@ -12,4 +12,6 @@ inoremap <up> <NOP>
 inoremap <down> <NOP>
 inoremap <left> <NOP>
 inoremap <right> <NOP>
+set mouse=nicr
+
 au bufnewfile,bufRead bashconfig set filetype=sh

@@ -3,6 +3,7 @@ export EDITOR=vi VISUAL=vi
 
 unalias -a
 alias c=clear
+alias steal="git clone"
 alias ll="ls -la"
 alias vi=vim
 export PATH=$HOME/Repos/gitlab.com/mattiwos/dotfiles/scripts:$PATH
