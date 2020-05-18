@@ -12,3 +12,4 @@ inoremap <up> <NOP>
 inoremap <down> <NOP>
 inoremap <left> <NOP>
 inoremap <right> <NOP>
+au bufnewfile,bufRead bashconfig set filetype=sh

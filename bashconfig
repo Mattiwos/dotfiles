@@ -1,4 +1,8 @@
+export EDITOR=vi VISUAL=vi
+#Alias
+
+unalias -a
+alias c=clear
 alias ll="ls -la"
 alias vi=vim
-
-
+export PATH=$HOME/Repos/gitlab.com/mattiwos/dotfiles/scripts:$PATH
