@@ -1,5 +1,6 @@
-export EDITOR=vi VISUAL=vi
+set -o vi
 #Alias
+
 
 unalias -a
 alias c=clear
