@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curl "http://cht.sh/$1"
