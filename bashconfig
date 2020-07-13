@@ -2,6 +2,9 @@ set -o vi
 #Alias
 
 
+export PATH=$HOME/Repos/gitlab.com/mattiwos/dotfiles/scripts:$PATH
+
+
 unalias -a
 alias c=clear
 alias steal="git clone"
@@ -9,4 +12,3 @@ alias ll="ls -la"
 alias vi=vim
 alias ?=duck
 alias ??=google
-export PATH=$HOME/Repos/gitlab.com/mattiwos/dotfiles/scripts:$PATH
