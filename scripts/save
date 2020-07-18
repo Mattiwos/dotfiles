@@ -12,12 +12,16 @@ init () {
   read -p "Not a git repo. Create? " y
   if [[ $y =~ ^[yY] ]]; then
       touch README.md
-      read -p "GitLab path (<id>/<proj>): " repo
-      if [[ -z "$repo" ]]; then
+			read -p "Path Id: " name
+			read -p "Path Repo name: " reponame
+      if [ -z "$name"] && [-z "$reponame"];then
         return init
       fi
       git init
-      git remote add origin "git@gitlab.com:$repo.git"
+      git remote add origin "git@gitlab.com:$name/$reponame.git"
+			git remote add origin "git@github.com:Mattiwos/$reponame.git"
+			git remote -v 
+
       git add .
       git commit -m initial
       git push -u origin master
