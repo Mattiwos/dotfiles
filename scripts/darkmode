@@ -1,0 +1,16 @@
+#!/bin/bash
+
+case $* in on)
+
+networksetup -setairportpower en0 off
+blueutil -p 0
+;;
+off)
+
+networksetup -setairportpower en0 on 
+blueutil -p 1
+;;
+*)
+echo "Invalid"
+;;
+esac

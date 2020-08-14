@@ -1,0 +1,5 @@
+#!/bin/bash
+
+brew install blueutil
+brew install nodejs
+
