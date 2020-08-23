@@ -1,5 +1,8 @@
 #!/bin/bash
 
-brew install blueutil
-brew install nodejs
+#brew install blueutil
+#brew install nodejs
+sudo apt-get update
+sudo apt-get upgrade
 
+sudo apt install lolcat cowsay cmatrix
