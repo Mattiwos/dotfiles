@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo ifconfig $* down
+sudo macchanger -r $*
+sudo macchanger -s $*
+sudo ifconfig $* up
