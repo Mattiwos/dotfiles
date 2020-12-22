@@ -1,12 +1,10 @@
 #!/bin/bash
 
 case $* in -r)
-
-networksetup -setairportpower en0 off
-blueutil -p 0
+echo "remove blank in list"
 ;;
 *)
-echo "127.0.0.1 $*" >> /etc/hosts
+sudo echo "127.0.0.1 $*" >> /etc/hosts
 ;;
 esac
 
