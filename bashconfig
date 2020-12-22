@@ -5,6 +5,9 @@ set -o vi
 export
 PATH=$HOME/Repos/gitlab.com/mattiwos/dotfiles/scripts:$HOME/Desktop/nand2tetris/tools:$PATH
 
+export PATH="$PATH:/usr/games"
+cowsay -f dragon Welcome back, 4rch4ng13 | lolcat
+
 unalias -a
 alias c=clear
 alias steal="git clone"
