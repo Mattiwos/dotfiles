@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ln -sf $HOME/Repos/gitlab.com/mattiwos/dotfiles/bashconfig $HOME/.bash_aliases
-#ls -l $HOME/.bash_aliases
+ls -l $HOME/.bash_aliases
 #linux
 #ln -sf $PWD/vimrc $HOME/.vimrc
 #ls -l $HOME/.vimrc

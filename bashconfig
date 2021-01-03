@@ -2,12 +2,15 @@ set -o vi
 #Alias
 
 
-export
-PATH=$HOME/Repos/gitlab.com/mattiwos/dotfiles/scripts:$HOME/Desktop/nand2tetris/tools:$PATH
-
 export PATH="$PATH:/usr/games"
+export
+PATH=$HOME/Repos/gitlab.com/mattiwos/dotfiles/scripts:$PATH
 cowsay -f dragon Welcome back, 4rch4ng13 | lolcat
-
+# Vital locations
+HUB=$HOME/Repos/github.com/mattiwos/
+LAB=$HOME/Repos/gitlab.com/mattiwos/
+SCR=$HOME/Repos/gitlab.com/mattiwos/dotfiles/scripts
+##
 unalias -a
 alias c=clear
 alias steal="git clone"
@@ -15,3 +18,4 @@ alias ll="ls -la"
 alias vi=vim
 alias ?=duck
 alias ??=google
+alias afk="cmatrix | lolcat;c"
