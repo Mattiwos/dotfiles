@@ -1,1 +1,2 @@
 curl ipinfo.io/ip
+echo 
