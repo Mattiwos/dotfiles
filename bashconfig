@@ -4,7 +4,7 @@ set -o vi
 
 export PATH="$PATH:/usr/games"
 export
-PATH=$HOME/Repos/gitlab.com/mattiwos/dotfiles/scripts:$PATH
+PATH=$HOME/Repos/github.com/mattiwos/dotfiles/scripts:$PATH
 cowsay -f dragon Welcome back, 4rch4ng13 | lolcat
 # Vital locations
 HUB=$HOME/Repos/github.com/mattiwos/
