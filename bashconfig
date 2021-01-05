@@ -10,6 +10,7 @@ cowsay -f dragon Welcome back, 4rch4ng13 | lolcat
 HUB=$HOME/Repos/github.com/mattiwos/
 LAB=$HOME/Repos/gitlab.com/mattiwos/
 SCR=$HOME/Repos/gitlab.com/mattiwos/dotfiles/scripts
+EXE=$HOME/snap/exercism/current/exercism
 ##
 unalias -a
 alias c=clear
