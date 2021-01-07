@@ -1,15 +1,16 @@
-set -o vi
+et -o vi
 #Alias
 
 
 export PATH="$PATH:/usr/games"
+export DOTLOC=$HOME/Repos/github.com/mattiwos/dotfiles/
 export
 PATH=$HOME/Repos/github.com/mattiwos/dotfiles/scripts:$PATH
 cowsay -f dragon Welcome back, 4rch4ng13 | lolcat
 # Vital locations
 HUB=$HOME/Repos/github.com/mattiwos/
-LAB=$HOME/Repos/gitlab.com/mattiwos/
-SCR=$HOME/Repos/gitlab.com/mattiwos/dotfiles/scripts
+LAB=$HOME/Repos/github.com/mattiwos/
+SCR=$HOME/Repos/github.com/mattiwos/dotfiles/scripts
 EXE=$HOME/snap/exercism/current/exercism
 ##
 unalias -a
