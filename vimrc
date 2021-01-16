@@ -13,5 +13,4 @@ inoremap <down> <NOP>
 inoremap <left> <NOP>
 inoremap <right> <NOP>
 set mouse=nicr
-Plugin 'mdempsky/gocode', {'rtp': 'vim/'}
 au bufnewfile,bufRead bashconfig set filetype=sh
