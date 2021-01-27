@@ -1,4 +1,4 @@
-et -o vi
+set -o vi
 #Alias
 
 
@@ -16,9 +16,10 @@ EXE=$HOME/snap/exercism/current/exercism
 unalias -a
 alias c=clear
 alias steal="git clone"
-alias ll="ls -la"
+alias ll="ls -la --color"
+alias ls="ls --color"
 alias vi=vim
 alias python=python3
 alias ?=duck
 alias ??=google
-alias afk="cmatrix | lolcat;c"
+alias afk="cmatrix -r;"
