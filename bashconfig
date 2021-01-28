@@ -17,7 +17,7 @@ unalias -a
 alias c=clear
 alias steal="git clone"
 alias ll="ls -la --color"
-alias ls="ls --color"
+alias ls="ls"
 alias vi=vim
 alias python=python3
 alias ?=duck
