@@ -3,6 +3,22 @@ set background =dark
 colorscheme pablo 
 set tabstop=2 " makes tab 2 spacs"
 set textwidth=73 " set max line length
+set autoindent
+set autowrite
+set ruler
+set showmode
+set softtabstop=2
+set shiftwidth=2
+set smartindent
+set smarttab
+set nofixendofline 
+set expandtab
+
+set nobackup
+set noswapfile
+set nowritebackup
+
+set icon
 syntax enable "shows syntax colors
 noremap <up> :echoerr "use K instead" <CR>
 noremap <down> :echoerr "use J instead" <CR>
