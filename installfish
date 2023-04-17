@@ -1,0 +1,7 @@
+#!/bin/bash
+cd /tmp
+wget https://robobunny.com/projects/animation/Term-Animation-2.6.tar.gz
+tar -zxvf Term-Animation-2.6.tar.gz
+cd Term-Animation-2.6/
+perl Makefile.PL && make && make test
+sudo make install
